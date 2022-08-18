@@ -1,0 +1,96 @@
+[debug] [2022-08-18T15:22:00.267Z] ----------------------------------------------------------------------
+[debug] [2022-08-18T15:22:00.271Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Reetesh Meena\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-18T15:22:00.272Z] CLI Version:   11.7.0
+[debug] [2022-08-18T15:22:00.272Z] Platform:      win32
+[debug] [2022-08-18T15:22:00.272Z] Node Version:  v16.15.0
+[debug] [2022-08-18T15:22:00.288Z] Time:          Thu Aug 18 2022 20:52:00 GMT+0530 (India Standard Time)
+[debug] [2022-08-18T15:22:00.288Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-18T15:22:00.419Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-18T15:22:00.420Z] > authorizing via signed-in user (reeteshmeena73@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\WINDOWS DOCS IMP\Desktop\fakeserver
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-18T15:22:11.979Z] Using project from CLI flag: fackbackend-ff76b
+[debug] [2022-08-18T15:22:11.981Z] > refreshing access token with scopes: []
+[debug] [2022-08-18T15:22:11.985Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-08-18T15:22:11.985Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-18T15:22:12.301Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-08-18T15:22:12.302Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-18T15:22:12.326Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fackbackend-ff76b [none]
+[debug] [2022-08-18T15:22:12.821Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fackbackend-ff76b 200
+[debug] [2022-08-18T15:22:12.822Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fackbackend-ff76b {"projectId":"fackbackend-ff76b","projectNumber":"105729015971","displayName":"fackbackend","name":"projects/fackbackend-ff76b","resources":{"hostingSite":"fackbackend-ff76b"},"state":"ACTIVE","etag":"1_49b64065-c026-4597-86e9-266c65b9cd73"}
+[info] i  Using project fackbackend-ff76b (fackbackend) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2022-08-18T15:22:36.912Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-08-18T15:22:37.102Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-08-18T15:22:37.103Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.2","browserURL":"https://www.gstatic.com/firebasejs/9.9.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.2/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.2/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at D:\WINDOWS DOCS IMP\Desktop\fakeserver 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=877008054&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-18T15:22:41.102Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-08-18T15:22:41.103Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-08-18T15:22:42.620Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-08-18T15:22:42.621Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-08-18T15:22:42.684Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-08-18T15:22:43.144Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-08-18T15:22:43.144Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"reeteshin","id":37933301,"node_id":"MDQ6VXNlcjM3OTMzMzAx","avatar_url":"https://avatars.githubusercontent.com/u/37933301?v=4","gravatar_id":"","url":"https://api.github.com/users/reeteshin","html_url":"https://github.com/reeteshin","followers_url":"https://api.github.com/users/reeteshin/followers","following_url":"https://api.github.com/users/reeteshin/following{/other_user}","gists_url":"https://api.github.com/users/reeteshin/gists{/gist_id}","starred_url":"https://api.github.com/users/reeteshin/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/reeteshin/subscriptions","organizations_url":"https://api.github.com/users/reeteshin/orgs","repos_url":"https://api.github.com/users/reeteshin/repos","events_url":"https://api.github.com/users/reeteshin/events{/privacy}","received_events_url":"https://api.github.com/users/reeteshin/received_events","type":"User","site_admin":false,"name":"reetesh meena","company":"MASAI SCHOOL","blog":"https://reetesh-meena.vercel.app/","location":"Indore","email":"reeteshmeena73@gmail.com","hireable":null,"bio":null,"twitter_username":null,"public_repos":22,"public_gists":0,"followers":2,"following":0,"created_at":"2018-03-30T13:42:09Z","updated_at":"2022-08-18T14:35:25Z","private_gists":0,"total_private_repos":14,"owned_private_repos":14,"disk_usage":155066,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as reeteshin 
+[info] 
+[debug] [2022-08-18T15:22:50.693Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-18T15:22:51.225Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-18T15:22:51.226Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-18T15:22:51.268Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-18T15:22:51.864Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-18T15:22:51.864Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-18T15:23:09.775Z] >>> [apiv2][query] GET https://api.github.com/repos/reeteshin/FACKBACKEND/actions/secrets/public-key type=owner
+[debug] [2022-08-18T15:23:10.398Z] <<< [apiv2][status] GET https://api.github.com/repos/reeteshin/FACKBACKEND/actions/secrets/public-key 404
+[debug] [2022-08-18T15:23:10.398Z] <<< [apiv2][body] GET https://api.github.com/repos/reeteshin/FACKBACKEND/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-08-18T15:23:12.424Z] >>> [apiv2][query] GET https://api.github.com/repos/reeteshin/FACKBACKEND/actions/secrets/public-key type=owner
+[debug] [2022-08-18T15:23:12.826Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-18T15:23:13.121Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-18T15:23:13.238Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-18T15:23:13.239Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-18T15:23:13.263Z] <<< [apiv2][status] GET https://api.github.com/repos/reeteshin/FACKBACKEND/actions/secrets/public-key 404
+[debug] [2022-08-18T15:23:13.264Z] <<< [apiv2][body] GET https://api.github.com/repos/reeteshin/FACKBACKEND/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-08-18T15:23:13.480Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-18T15:23:13.481Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-18T15:23:15.301Z] Error: kill ENOSYS
+    at process.kill (node:internal/process/per_thread:220:13)
+    at process.listener (C:\Users\Reetesh Meena\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\signal-exit\index.js:95:15)
+    at process.emit (node:events:527:28)
+[error] 
+[error] Error: An unexpected error has occurred.
